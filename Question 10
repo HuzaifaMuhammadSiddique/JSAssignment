@@ -1,0 +1,13 @@
+// This is a function that cubes a number.
+
+function cube(n) {
+return n*n*n;
+}
+
+// This is a function that greets you.
+
+function greet(name) {
+console.log("Greetings, " + name);
+}
+
+
