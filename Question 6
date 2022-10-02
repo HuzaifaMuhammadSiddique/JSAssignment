@@ -1,0 +1,4 @@
+let name = ".\tHammad Siddique\t.";
+let twoNames = "Hassan\nHuzaifa";
+console.log(name);
+console.log(twoNames);
