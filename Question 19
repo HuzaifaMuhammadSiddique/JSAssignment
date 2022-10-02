@@ -1,0 +1,19 @@
+let people = ["Ali", "Hammad", "Asjid"];
+
+console.log(people[0] + ", come to my place to eat.");
+console.log(people[1] + ", come to my place to eat.");
+console.log(people[2] + ", come to my place to eat.");
+
+console.log("\n\n Congrats! I have got a bigger dinner table and now I can invite more people to eat with us. Let's invite more people!\n\n");
+
+people.push("Moiz");
+people.push("Sulaiman");
+people.push("Omar");
+
+console.log(people[3] + ", come to my place to eat.");
+console.log(people[4] + ", come to my place to eat.");
+console.log(people[5] + ", come to my place to eat.");
+
+console.log("\n")
+
+console.log("I am inviting " + people.length + " to eat with me.")
