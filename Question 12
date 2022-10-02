@@ -1,0 +1,6 @@
+let names = ["Huzaifa", "Hammad", "Asjid", "Ali"];
+
+console.log(names[0] + ", you are in Turkey!");
+console.log(names[1] + ", you are in Fast Islamabad!");
+console.log(names[2] + ", you are in Fast Peshawar!");
+console.log(names[3] + ", you are in NUST Islamabad!");
