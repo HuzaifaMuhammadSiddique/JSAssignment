@@ -1,0 +1,15 @@
+let invitedPeople = ["Quaid-e-Azam Muhamamd Ali Jinnah", "Abdul Sattar Edhi", "Hazrat Umar (RA)", "Zulfiqar Ali Bhutto"];
+
+console.log(invitedPeople[0] + ", I hope to see you at the dinner!");
+console.log(invitedPeople[1] + ", I really want you to come and have dinner at my house. ");
+console.log(invitedPeople[2] + ", I really love you and I will keep on loving you. It is requested to please come to my house and have dinner with me.");
+console.log(invitedPeople[3] + ", see you at the dinner party at my place!");
+
+console.log("\n\n ***Zulfiqar Ali Bhutto will not be able to make it to the dinner party at my house.***\n\n ")
+
+invitedPeople[3] = "Dr. Israr Ahmad"
+
+console.log(invitedPeople[0] + ", I hope to see you at the dinner!");
+console.log(invitedPeople[1] + ", I really want you to come and have dinner at my house. ");
+console.log(invitedPeople[2] + ", I really love you and I will keep on loving you. It is requested to please come to my house and have dinner with me.");
+console.log(invitedPeople[3] + ", please come and have dinner with me.");
