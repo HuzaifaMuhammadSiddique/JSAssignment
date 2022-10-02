@@ -1,0 +1,7 @@
+let myFav = ["mehran", "mr. bean's car", "cycle", "brt", "airplane"];
+
+console.log("I used to drive " + myFav[0] + " daily!");
+console.log("I really like " + myFav[1] + "!");
+console.log("I wish I had a " + myFav[2] + " here in Turkey!");
+console.log("Thank God I don't have to travel in " + myFav[3] + " again!");
+console.log("I came to Turkey using an " + myFav[4] + " and it was really fun!");
