@@ -1,0 +1,8 @@
+let person = {
+    name : "Huzaifa",
+    age : 20,
+    weight = 58.79,
+    is_married = false,
+    education = "A levels",
+    university + "AYBU"
+}: 
