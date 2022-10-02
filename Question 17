@@ -1,0 +1,39 @@
+let people = ["Ali", "Hammad", "Asjid"];
+
+console.log(people[0] + ", come to my place to eat.");
+console.log(people[1] + ", come to my place to eat.");
+console.log(people[2] + ", come to my place to eat.");
+
+console.log("\n\n Congrats! I have got a bigger dinner table and now I can invite more people to eat with us. Let's invite more people!\n\n");
+
+people.push("Moiz");
+people.push("Sulaiman");
+people.push("Omar");
+
+console.log(people[3] + ", come to my place to eat.");
+console.log(people[4] + ", come to my place to eat.");
+console.log(people[5] + ", come to my place to eat.");
+
+console.log("\n\n Sorry guys, now i only have place for 2 people!\n\n");
+
+let one = people.pop();
+let two = people.pop();
+let three = people.pop();
+let four = people.pop();
+
+console.log(one + ", sorry you can't come :(");
+console.log(two + ", sorry you can't come :(");
+console.log(three + ", sorry you can't come :(");
+console.log(four + ", sorry you can't come :(");
+
+console.log("\n\n");
+
+console.log(people[0] + ", you can come.")
+console.log(people[1] + ", you can come.")
+
+people.pop()
+people.pop()
+
+console.log("\n")
+
+console.log(people.length);
