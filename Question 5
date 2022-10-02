@@ -1,0 +1,5 @@
+let quote = '"You have to keep breaking your heart until it opens."';
+let person = "Rumi";
+let message = person + " once said," + quote;
+
+console.log(message);
