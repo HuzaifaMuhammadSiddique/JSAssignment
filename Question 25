@@ -1,0 +1,17 @@
+// Version that fails the test.
+let alien_color = 'red';
+let points;
+
+if (alien_color === 'green') {
+    points += 5
+    console.log("You just earned " + points + " points!")
+}
+
+// Version that passes the test.
+let alien_color2 = 'green';
+let points2;
+
+if (alien_color2 === 'green') {
+    points2 += 5
+    console.log("You just earned " + points2 + " points!")
+}
