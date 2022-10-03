@@ -1,0 +1,18 @@
+let a = 6 + 9;
+let b = "yes";
+let c = 9 - 8;
+let d = 4.67;
+let e = "my name";
+let f = false;
+let g = 8 * 7 / 4;
+let h = "huzaifa";
+let i = 3.142;
+let j = 1 + 2 + 3 + 4;
+
+let predictions = [true, true, true, false, true, false, false, true, false, false];
+let results = [a == 15, b == 'yes', c == 1, d == 4, e == "my name", f == true, g == 20, h == 'huzaifa', i == -1, j == 100];
+
+for (let x=0; x<10; x++) {
+    console.log("I predict " + predictions[x]);
+    console.log("Actual Result = " + results[x]);
+}
