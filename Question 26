@@ -1,0 +1,17 @@
+// Version that runs the if block.
+let alien_color = "green";
+
+if (alien_color === 'green') {
+    console.log("You earned 5 points!")
+} else {
+    console.log("You eanred 10 points!")
+}
+
+// Version that runs the else block.
+let alienColor = "yellow";
+
+if (alienColor === 'green') {
+    console.log("You earned 5 points!")
+} else {
+    console.log("You eanred 10 points!")
+}
