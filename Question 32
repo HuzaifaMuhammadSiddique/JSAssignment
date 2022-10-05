@@ -1,0 +1,12 @@
+let current_users = ["huzfi", "asjidkhan", "ali123", "sulli", "itsomar", "ihammad"]
+let new_users = ["huzfi", "ihammad", "moizg", "hani", "iamfaiz", "spamx"]
+
+for(let i=0; i < new_users.length; i++) {
+    for (let n=0; n < current_users.length; n++) {
+        if (new_users[i] === current_users[n]) {
+            console.log("This username is taken. Please enter a new username.")
+        } else{
+            console.log("this username is available.")
+        }
+    }
+}
