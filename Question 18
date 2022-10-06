@@ -1,0 +1,24 @@
+let places = ["Pakistan", "Turkey", "Saudi Arabia", "Iraq", "US"];
+
+console.log(places);
+
+let sorted_places = places.sort(); 
+console.log(sorted_places);
+
+places = ["Pakistan", "Turkey", "Saudi Arabia", "Iraq", "US"];
+console.log(places);
+
+let reversed_places = places.reverse();
+console.log(reversed_places);
+
+places = reversed_places.reverse();
+console.log(places)
+
+sorted_places = places.sort(); 
+console.log(sorted_places);
+
+places = ["Pakistan", "Turkey", "Saudi Arabia", "Iraq", "US"];
+console.log(places);
+
+reversed_places = places.reverse();
+console.log(reversed_places);
