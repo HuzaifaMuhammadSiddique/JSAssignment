@@ -1,0 +1,21 @@
+function make_album(name, title, track){
+    let obj = {
+        'name' : name,
+        'title' : title,
+        'tracks' : track
+    };
+    if (obj['tracks'] == undefined){
+        delete obj['tracks'];
+    }
+    return obj;
+}
+
+const a = make_album("sam", "aaaaa");
+const b = make_album("tom", "ta ta taaaa");
+const c = make_album("thomas", "dam dama dam dam");
+const d = make_album("yurtan", "abc def ghijjjj", 10);
+
+console.log(a)
+console.log(b)
+console.log(c)
+console.log(d)
