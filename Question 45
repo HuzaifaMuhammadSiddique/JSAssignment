@@ -1,0 +1,25 @@
+function cars(manufacturer, model, color, design){
+    let obj = {
+        "Manufacturer" : manufacturer,
+        "Model" : model,
+        "Color" : color,
+        "Design" : design
+    }
+    if (obj["Color"] == undefined){
+        delete obj["Color"];
+    }
+    if (obj["Design"] == undefined){
+        delete obj["Design"];
+    }
+    
+    return obj;
+}
+
+let car1 = cars("a", "b");
+let car2 = cars("a", "b", "c");
+let car3 = cars("a", "b", "c", "d"); 
+
+
+console.log(car1);
+console.log(car2);
+console.log(car3);
