@@ -1,0 +1,5 @@
+function make_shirt(size, message) {
+    console.log("The size of this shirt is " + size + " and the message that is printed on the shirt is '" + message +"'.");
+}
+
+make_shirt("small", "Let's do javascript!");
