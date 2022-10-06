@@ -1,0 +1,14 @@
+function make_shirt(size = 'large', message = 'I love JavaScript.'){
+    if (size == 'large' || size == "medium") {
+        message = 'I love JavaScript.' 
+    } 
+
+console.log("The size of this shirt is " + size + " and the message written on this shirt is '" + message + "'.")
+    
+}
+
+make_shirt(undefined, "lets do it!")
+make_shirt()
+make_shirt('large')
+make_shirt('medium')
+make_shirt("small", "abc")
