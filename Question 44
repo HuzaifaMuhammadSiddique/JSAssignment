@@ -1,0 +1,14 @@
+let items = ["chicken", "salad", "tomatoes"];
+let items1 = ["chicken", "salad", "tomatoes", "cheese"];
+let items2 = ["chicken", "salad", "tomatoes", "onion", "ketchup", "mayonnaise", "meat"];
+
+
+function make_sandwitch(){
+    console.log("The sandwitch contains ");
+    for(i=0;i<arguments.length;i++){
+        console.log(arguments[i]);
+    }
+}
+make_sandwitch("chicken", "salad", "tomatoes");
+make_sandwitch("chicken", "salad", "tomatoes", "cheese");
+make_sandwitch("chicken", "salad", "tomatoes", "onion", "ketchup", "mayonnaise", "meat");
